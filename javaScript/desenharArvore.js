@@ -21,7 +21,7 @@ const arvore =(num)=>{
   let asterisco=1;
   for(let i = 1; i <num; i++ ){
       if( i ==1){
-          console.log(multiplicarString(mitad ,' '),multiplicarString(asterisco ,'*'));
+          console.log(multiplicarString(mitad,' '),multiplicarString(asterisco ,'*'));
       }
       asterisco+=2
       if((mitad-i)!==0){
