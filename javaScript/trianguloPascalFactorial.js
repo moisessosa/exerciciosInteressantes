@@ -44,7 +44,7 @@ const crearTriangulo=(lineas,trianguloVacio=crearMatriz,f=factorial)=>{
     for(let fila=0; fila<lineas;fila++){
         for(let col = 0; col <=fila; col++){
             trianguloPascal[fila][col]= f(fila)/(f(col)*f(fila-col));
-        }
+        }   
     }
 
 return trianguloPascal;
