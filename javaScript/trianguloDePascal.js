@@ -29,7 +29,7 @@ const gerarTrianguloDePascal = function(linhas){// cria os dados do triangulo
   };
   for(let i=4; i<= linhas; i++){// um loop for para gerar da linha 4 en diante
       //let j =i-1;//para control mas facil
-      let k = 0;// valor dos indices da linha nova
+      let k = 0;// valor para os indices do array da linha nova
       triangulo['l'+i] =[1];//primer valor sempre va ser 1
       while(k < i-1){//crea uma propiedade(linha)nova e adiccionamos el novo valor
                   // que é o resultado de sumar os numeros da linha superior de dois em dois
